@@ -1,0 +1,81 @@
+.App {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-image: url("../images/Vlcsnap-2015-01-31-04h33m02s175.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Gallery {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-image: url("../images/3ZESUwtuMsNyPmxGCMptW3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.loading-layer {
+  position:fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+}
+
+.App-header {
+  width: 100%;
+  margin: 0 0 10px 0;
+  box-shadow: 0 0 20px silver;
+  background-color: #003b78cc;
+  color: rgb(242, 255, 0);
+}
+
+.backBtn{
+  position: absolute;
+  left: 20px;
+  text-align: center;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.Rick-btn {
+  position: absolute;
+  bottom: 5px;
+  left: 100px;
+}
+
+.Morty-btn {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+
+.Rick-img {
+  width: 100px;
+  height: 200px;
+}
+
+.Morty-img {
+  width: 60px;
+  height: 150px;
+}
+
+.pagination-box{
+  width: 100%;
+  position: fixed;
+  bottom:0;
+  background-color:  #a3a3a3cc;
+  background:linear-gradient(90deg,transparent,#ffffffcc,transparent);
+}
+
+.aaa{
+  flex-wrap: nowrap !important;
+}

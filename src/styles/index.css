@@ -1,0 +1,21 @@
+body {
+  width: 100%;
+  background-color: #f3f3f4;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.w-100 {
+  width: 100%;
+}
+.h-100vh {
+  height: 100vh;
+}
+
+.centerization {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
