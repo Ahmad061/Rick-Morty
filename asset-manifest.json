@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Rick-Morty/static/css/main.1005fee1.css",
-    "main.js": "/Rick-Morty/static/js/main.437484d3.js",
-    "static/media/3ZESUwtuMsNyPmxGCMptW3.png": "/Rick-Morty/static/media/3ZESUwtuMsNyPmxGCMptW3.2abc1a9bd5763eca2e2c.png",
-    "static/media/kYmZBPCuov6uQTy5vPN93G-1200-80.jpg": "/Rick-Morty/static/media/kYmZBPCuov6uQTy5vPN93G-1200-80.76e83e295087f7c7b752.jpg",
-    "index.html": "/Rick-Morty/index.html",
-    "main.1005fee1.css.map": "/Rick-Morty/static/css/main.1005fee1.css.map",
-    "main.437484d3.js.map": "/Rick-Morty/static/js/main.437484d3.js.map"
+    "main.css": "/static/css/main.02ce0e97.css",
+    "main.js": "/static/js/main.437484d3.js",
+    "static/media/3ZESUwtuMsNyPmxGCMptW3.png": "/static/media/3ZESUwtuMsNyPmxGCMptW3.2abc1a9bd5763eca2e2c.png",
+    "static/media/kYmZBPCuov6uQTy5vPN93G-1200-80.jpg": "/static/media/kYmZBPCuov6uQTy5vPN93G-1200-80.76e83e295087f7c7b752.jpg",
+    "index.html": "/index.html",
+    "main.02ce0e97.css.map": "/static/css/main.02ce0e97.css.map",
+    "main.437484d3.js.map": "/static/js/main.437484d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.1005fee1.css",
+    "static/css/main.02ce0e97.css",
     "static/js/main.437484d3.js"
   ]
 }
