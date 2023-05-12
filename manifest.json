@@ -19,7 +19,7 @@
     }
   ],
   "start_url": "/",
-  
+  "scope": "https://ahmad061.github.io/Rick-Morty/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
