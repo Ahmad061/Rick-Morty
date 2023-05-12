@@ -18,6 +18,8 @@
       "sizes": "512x512"
     }
   ],
+  "start_url": "/gallery",
+  "scope": "/gallery",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
