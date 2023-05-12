@@ -1,3 +1,25 @@
+*** Rick and Morty ***
+This application is a simple gallery of characters related to Rick and Marty animation.
+
+Project Status: Developing
+
+This project is currently in development.
+
+app features:
+-display characters list
+-display character more details by click on card
+-install pwa
+
+api address:
+https://rickandmortyapi.com/graphql/
+
+github repository:
+https://github.com/Ahmad061/Rick-Morty
+
+app address:
+https://ahmad061.github.io/Rick-Morty/ 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Box, Button, Grid, Pagination } from "@mui/material";
-import Header from "../layouts/header";
 import CharacterCard from "./card";
 import { generalActions } from "../redux/general";
 import { CircularProgress } from "@mui/material";
@@ -73,12 +72,23 @@ function Gallery() {
             ? selectedCard.episode.map((item) => <li>{item.name}</li>)
             : ""}
         </ul>
-<Box sx={{position:"relative"}}>
-
-
-        <Button sx={{position:"fixed",bottom:"40px" ,right:'20px' , p:2 ,backgroundColor:'white'}} size="small" color="inherit" onClick={close} variant="outlined">
-          close
-        </Button></Box>
+        <Box sx={{ position: "relative" }}>
+          <Button
+            sx={{
+              position: "fixed",
+              bottom: "40px",
+              right: "20px",
+              p: 2,
+              backgroundColor: "white",
+            }}
+            size="small"
+            color="inherit"
+            onClick={close}
+            variant="outlined"
+          >
+            close
+          </Button>
+        </Box>
       </Box>
     );
   };
@@ -89,8 +99,6 @@ function Gallery() {
   //-------------------- Return --------------------\\
   return (
     <div className="Gallery">
-      <Header backBtn />
-
       {loading ? (
         <div className="loading-layer centerization">
           <CircularProgress color={"inherit"} size={"100px"} />{" "}
@@ -103,7 +111,7 @@ function Gallery() {
         component="div"
         sx={{
           pb: 3,
-          pt: 2,
+          pt: 10,
           borderRadius: "5px",
         }}
         className="w-100 centerization"

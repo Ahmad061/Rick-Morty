@@ -2,7 +2,7 @@
   width: 100%;
   height: 100vh;
   text-align: center;
-  background-image: url("../images/Vlcsnap-2015-01-31-04h33m02s175.webp");
+  background-image: url("../images/kYmZBPCuov6uQTy5vPN93G-1200-80.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -29,15 +29,17 @@
 
 .App-header {
   width: 100%;
-  margin: 0 0 10px 0;
+ position: fixed;
   box-shadow: 0 0 20px silver;
   background-color: #003b78cc;
   color: rgb(242, 255, 0);
+  z-index: 100;
 }
 
 .backBtn{
   position: absolute;
   left: 20px;
+  top: 20px;
   text-align: center;
   padding: 5px;
   background-color: white;
