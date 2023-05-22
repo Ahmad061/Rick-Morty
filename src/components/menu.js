@@ -5,7 +5,7 @@ import Box from "@mui/material/Box";
 import { history } from "../helpers";
 import Gallery from "./gallery";
 
-function Menu(props) {
+function Menu() {
   const [deferredPrompt, setDeferredPrompt] = useState(null);
 
   useEffect(() => {
@@ -27,13 +27,7 @@ function Menu(props) {
     }
   };
 
-  const changeComponent = (component) => {
-    if (props.onChangeComponent) {
-      props.onChangeComponent(component);
-    }
-  };
-
-  //---------------- return -----------------\\
+  /* //---------------- return -----------------\\ */
   return (
     <Box
       component="span"
@@ -41,15 +35,11 @@ function Menu(props) {
         p: 3,
         borderRadius: "5px",
         backgroundColor: "#474747cc",
-        // "&:hover": {
-        //   backgroundColor: "primary.main",
-        //   opacity: [0.9, 0.8, 0.7],
-        // },
       }}
     >
       {/* Galery */}
       <Button
-        onClick={() => changeComponent(<Gallery />)}
+        onClick={() => history.push("/Rick-Morty/gallery")}
         variant="contained"
         color="inherit"
         sx={{ m: 2 }}

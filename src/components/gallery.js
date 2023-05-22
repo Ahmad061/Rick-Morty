@@ -6,6 +6,7 @@ import CharacterCard from "./card";
 import { generalActions } from "../redux/general";
 import { CircularProgress } from "@mui/material";
 import MaterialDialog from "./materialDialog";
+import Header from "../layouts/header";
 
 function Gallery() {
   const dispatch = useDispatch();
@@ -99,6 +100,8 @@ function Gallery() {
   //-------------------- Return --------------------\\
   return (
     <div className="Gallery">
+      <Header backBtn />
+
       {loading ? (
         <div className="loading-layer centerization">
           <CircularProgress color={"inherit"} size={"100px"} />{" "}
@@ -155,4 +158,4 @@ function Gallery() {
 
 export default Gallery;
 
-//Array.from(Array(6)).map((
+
