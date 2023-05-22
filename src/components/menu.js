@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
-
 import { history } from "../helpers";
-import Gallery from "./gallery";
 
 function Menu() {
   const [deferredPrompt, setDeferredPrompt] = useState(null);
